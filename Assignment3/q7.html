@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conference Timetable</title>
+    <style>
+        .keynote { background-color: #f2f2f2; }
+        .workshop { background-color: #d9cbff; }
+    </style>
+</head>
+<body>
+    <h1>Conference Timetable</h1>
+    <table border="1" cellspacing="1" cellpadding="5">
+        <thead>
+            <tr>
+                <th>Time Slot</th>
+                <th>Room A</th>
+                <th>Room B</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>9:00 AM - 10:00 AM</td>
+                <td class="keynote" title="Keynote Speech by Dr. Kumar">Keynote</td>
+                <td class="workshop" title="Workshop on AI by Sumit Chadda">AI Workshop</td>
+            </tr>
+            <tr>
+                <td>10:00 AM - 12:00 PM</td>
+                <td colspan="2" class="workshop" title="Panel Discussion on Future Tech">Panel Discussion</td>
+            </tr>
+            <tr>
+                <td>1:00 PM - 3:00 PM</td>
+                <td class="workshop" title="Workshop on Cloud Computing">Cloud Workshop</td>
+                <td class="workshop" title="Workshop on GenAI">GenAI Workshop</td>
+            </tr>
+        </tbody>
+    </table>
+    <p><strong>Legend:</strong></p>
+    <ul>
+        <li class="keynote">Keynote Speech</li>
+        <li class="workshop">Workshop</li>
+    </ul>
+</body>
+</html>
